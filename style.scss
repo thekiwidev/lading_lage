@@ -19,7 +19,7 @@ img {
 
 #wrapper {
   width: 100%;
-  max-width: 1320px;
+  max-width: 1350px;
   margin: auto;
   position: relative;
 
@@ -110,8 +110,8 @@ img {
 
       h1 {
         letter-spacing: 3px;
-        font-weight: 500;
-        font-size: 3rem;
+        font-weight: 600;
+        font-size: 3.5rem;
         line-height: 1;
         margin-bottom: 1rem;
       }
@@ -148,12 +148,12 @@ img {
     padding: 0 2rem;
     .texts {
       position: absolute;
-      bottom: 0;
+      bottom: 15%;
       flex: 1;
       margin-bottom: 2rem;
       h1 {
-        font-weight: 500;
-        font-size: 5rem;
+        font-weight: 700;
+        font-size: 8rem;
         line-height: 1;
         text-transform: capitalize;
         margin-bottom: 1rem;
