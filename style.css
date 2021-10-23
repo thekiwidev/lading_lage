@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  background: #030303;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  position: relative;
+}
+
+#wrapper #header {
+  width: 100%;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.8rem 1.2rem;
+}
+
+#wrapper #header .logo {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+#wrapper #header .stroke {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #fff;
+  border-radius: 30%;
+  margin-bottom: 5px;
+}
+
+#wrapper #showcase {
+  position: relative;
+  width: 100%;
+  height: 94vh;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 749px) {
+  #showcase {
+    position: relative;
+    width: 100%;
+    height: 94vh;
+    overflow: hidden;
+  }
+  #showcase .texts {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2.5rem;
+    text-transform: capitalize;
+  }
+  #showcase .texts h1 {
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  #showcase .texts .btn {
+    display: block;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.4rem 1.6rem;
+    margin: auto;
+    margin-top: 4rem;
+  }
+  #showcase .image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+  }
+  #showcase .image img {
+    width: 200%;
+    margin-top: -15%;
+    margin-left: -70%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #showcase {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  #showcase .texts {
+    position: absolute;
+    bottom: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-bottom: 2rem;
+  }
+  #showcase .texts h1 {
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  #showcase .texts .btn {
+    margin-top: 4rem;
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+  }
+  #showcase .image {
+    position: absolute;
+    right: -30%;
+    z-index: -1;
+    width: 100%;
+  }
+  #showcase .image img {
+    display: block;
+    width: 60%;
+    margin-right: -50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
