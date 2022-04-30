@@ -5,6 +5,6 @@
 
 I made this project just for fun, with HTML / CSS
 
-you can check it out at 
+you can check it out at (https://thekiwidev.github.io/lading_lage/)
 
 - 👯 I’m looking to collaborate on cool projects 
